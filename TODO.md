@@ -1,0 +1,9 @@
+- [x] Add comment for HTML head section
+- [x] Add comment for custom CSS styles
+- [x] Add comment for main body
+- [x] Add comment for logo and title
+- [x] Add comment for background blobs
+- [x] Add comment for form container
+- [x] Add comment for edit menu form
+- [x] Add comments for form fields (nama, harga, deskripsi, kategori, foto)
+- [x] Add comment for action buttons
