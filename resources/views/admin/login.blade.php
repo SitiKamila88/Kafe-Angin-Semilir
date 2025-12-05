@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="id">
 <!-- Bagian Head: Meta, judul, dan link CSS/JS -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,7 +23,9 @@
 
     <!-- Style kustom -->
     <style>
-        html { scroll-behavior: smooth; }
+        html {
+            scroll-behavior: smooth;
+        }
 
         /* Pengaturan font global */
         body {
@@ -32,12 +35,19 @@
         }
 
         /* Font khusus untuk Judul (h1-h6) dan class .font-baloo */
-        h1, h2, h3, h4, h5, h6, .font-baloo {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        .font-baloo {
             font-family: 'Baloo Bhaijaan 2', cursive;
         }
     </style>
 </head>
 <!-- Bagian Body: Layout halaman login -->
+
 <body class="bg-[#FFFBF5] min-h-screen flex flex-col items-center justify-center relative overflow-hidden">
 
     <!-- Logo dan nama kafe di pojok kiri atas -->
@@ -64,8 +74,8 @@
 
             <!-- Gambar background frame -->
             <img src="{{ asset('images/frame-login.jpg') }}"
-                 alt="Background Frame"
-                 class="absolute inset-0 w-full h-full object-fill z-0">
+                alt="Background Frame"
+                class="absolute inset-0 w-full h-full object-fill z-0">
 
             <!-- Konten form login -->
             <div class="relative z-10 w-full max-w-sm px-4 text-center mt-4">
@@ -76,9 +86,9 @@
 
                 <!-- Pesan error jika ada -->
                 @if(session('error'))
-                    <div class="mb-4 bg-red-100 border-l-4 border-red-500 text-red-700 px-4 py-2 rounded text-xs shadow-sm">
-                        {{ session('error') }}
-                    </div>
+                <div class="mb-4 bg-red-100 border-l-4 border-red-500 text-red-700 px-4 py-2 rounded text-xs shadow-sm">
+                    {{ session('error') }}
+                </div>
                 @endif
 
                 <!-- Form login -->
@@ -89,8 +99,8 @@
                     <div class="text-left">
                         <label class="block text-xs font-bold text-gray-700 mb-1 ml-3">Nama Pengguna</label>
                         <input type="text" name="username"
-                               class="w-full px-5 py-3 rounded-full bg-gray-100 border border-gray-300 text-gray-800 text-sm font-semibold focus:ring-2 focus:ring-[#F9A826] focus:border-[#F9A826] focus:bg-white transition-all outline-none shadow-sm"
-                               required>
+                            class="w-full px-5 py-3 rounded-full bg-gray-100 border border-gray-300 text-gray-800 text-sm font-semibold focus:ring-2 focus:ring-[#F9A826] focus:border-[#F9A826] focus:bg-white transition-all outline-none shadow-sm"
+                            required>
                     </div>
 
                     <!-- Input password dengan toggle visibility -->
@@ -98,8 +108,8 @@
                         <label class="block text-xs font-bold text-gray-700 mb-1 ml-3">Kata Sandi</label>
                         <div class="relative">
                             <input type="password" name="password" id="password"
-                                   class="w-full px-5 py-3 rounded-full bg-gray-100 border border-gray-300 text-gray-800 text-sm font-semibold focus:ring-2 focus:ring-[#F9A826] focus:border-[#F9A826] focus:bg-white transition-all outline-none shadow-sm pr-10"
-                                   required>
+                                class="w-full px-5 py-3 rounded-full bg-gray-100 border border-gray-300 text-gray-800 text-sm font-semibold focus:ring-2 focus:ring-[#F9A826] focus:border-[#F9A826] focus:bg-white transition-all outline-none shadow-sm pr-10"
+                                required>
                             <!-- Tombol toggle password -->
                             <button type="button" onclick="togglePassword()" class="absolute inset-y-0 right-4 flex items-center text-gray-500 hover:text-[#F9A826] transition">
                                 <i class="fa fa-eye" id="eyeIcon"></i>
@@ -143,4 +153,5 @@
     </script>
 
 </body>
+
 </html>

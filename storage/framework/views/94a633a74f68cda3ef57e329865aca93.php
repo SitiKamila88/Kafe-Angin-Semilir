@@ -3,15 +3,15 @@
 <?php $__env->startSection('title', 'Profil - Kafe Angin Semilir'); ?> 
 
 <?php $__env->startPush('styles'); ?> 
-    <!-- CSS Swiper.js -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<!-- CSS Swiper.js -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 <?php $__env->stopPush(); ?>
 
 <?php $__env->startSection('content'); ?> 
 
 
 <div class="container mx-auto px-6">
-    
+
     
     <div class="w-full h-auto md:h-[400px] 
             rounded-[40px] 
@@ -42,38 +42,38 @@
     <section class="relative py-8">
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-10 items-start">
+
             
-            
-             
-             <div>
-            <h2 class="text-5xl font-extrabold mb-6">
-                Yuk <span class="text-[#F9A826]">Kenal</span><br>
-                Kami Lebih<br>
-                <span class="text-[#F9A826]">Dekat...</span>
-            </h2>
+
+            <div>
+                <h2 class="text-5xl font-extrabold mb-6">
+                    Yuk <span class="text-[#F9A826]">Kenal</span><br>
+                    Kami Lebih<br>
+                    <span class="text-[#F9A826]">Dekat...</span>
+                </h2>
                 <p class="text-black text-lg">
 
-                Mari mengenal kisah dan suasana alami yang menghidupkan
-                Kafe Angin Semilir.
-            </p>
-        </div>
-            
-            
-             <div class="md:col-span-2">
-            <div class="bg-[#F9A826] rounded-[50px] p-8 shadow-2xl shadow-black/65 text-black text-sm leading-relaxed">
-                <span class="font-bold">Kafe Angin Semilir</span> berawal dari warung kecil yang dibuka oleh <span class="font-bold">ibu Sitiatun Hasanah</span> pada <span class="font-bold">awal 2024</span>, ketika kawasan persawahan dan tepian sungai sedang ramai karena kangai yang surut. Dari gorengan sederhana, usaha itu tumbuh menjadi tempat makan yang menyediakan ragam hidangan rumahan bagi para pengunjung dan warga sekitar. Seiring waktu, warung tersebut diperluas menjadi kafe yang lebih nyaman, menghadirkan suasana alam yang tenang dengan menu yang terus berkembang hingga hari ini.
+                    Mari mengenal kisah dan suasana alami yang menghidupkan
+                    Kafe Angin Semilir.
+                </p>
             </div>
-        </div>
 
-                
             
-             <div class="md:col-span-3 flex justify-center">
-        <div class="bg-[#F9A826] rounded-[50px] p-8 shadow-2xl shadow-black/65 text-black text-sm leading-relaxed">
-            <p><span class="font-bold">Kafe Angin Semilir</span> dibangun dengan nuansa pedesaan yang hangat, memadukan kayu dan bambu sebagai bagian dari napas ruangannya. Setiap sudut dibiarkan terbuka agar angin dari persawahan dan tepian sungai bisa berkunjung bebas, membawa sejuk yang tenang dan aroma alam yang akrab. Bunga dan tanaman yang dirawat dengan hati menambah rasa damai yang menyelimuti tempat ini.</p>
+            <div class="md:col-span-2">
+                <div class="bg-[#F9A826] rounded-[50px] p-8 shadow-2xl shadow-black/65 text-black text-sm leading-relaxed">
+                    <span class="font-bold">Kafe Angin Semilir</span> berawal dari warung kecil yang dibuka oleh <span class="font-bold">ibu Sitiatun Hasanah</span> pada <span class="font-bold">awal 2024</span>, ketika kawasan persawahan dan tepian sungai sedang ramai karena kangai yang surut. Dari gorengan sederhana, usaha itu tumbuh menjadi tempat makan yang menyediakan ragam hidangan rumahan bagi para pengunjung dan warga sekitar. Seiring waktu, warung tersebut diperluas menjadi kafe yang lebih nyaman, menghadirkan suasana alam yang tenang dengan menu yang terus berkembang hingga hari ini.
+                </div>
+            </div>
+
+
+            
+            <div class="md:col-span-3 flex justify-center">
+                <div class="bg-[#F9A826] rounded-[50px] p-8 shadow-2xl shadow-black/65 text-black text-sm leading-relaxed">
+                    <p><span class="font-bold">Kafe Angin Semilir</span> dibangun dengan nuansa pedesaan yang hangat, memadukan kayu dan bambu sebagai bagian dari napas ruangannya. Setiap sudut dibiarkan terbuka agar angin dari persawahan dan tepian sungai bisa berkunjung bebas, membawa sejuk yang tenang dan aroma alam yang akrab. Bunga dan tanaman yang dirawat dengan hati menambah rasa damai yang menyelimuti tempat ini.</p>
                     <p>Di sini, pengunjung bisa memilih duduk lesehan, berkumpul di gazebo, atau bersantai di area terbuka sambil menikmati hamparan hijau. Hidangannya sederhana dan rumahan, minumannya segar dan alami, menghadirkan kenyamanan yang terasa dekat dengan kehidupan sehari-hari. Banyak yang datang bukan hanya untuk makan, tetapi juga untuk beristirahat sejenak, menenangkan pikiran, atau menyelesaikan pekerjaan ditemani suara alam.</p>
-                    <p><span class="font-bold">Kafe Angin Semilir</span>  tumbuh dari harapan sederhana: menyediakan ruang yang teduh bagi siapa pun yang ingin singgah, merasakan kedamaian, dan pulang dengan hati yang lebih ringan. Tempat kecil di tengah alam ini siap menyambut siapa saja dengan suasana tenang, pemandangan lembut, dan parkiran yang lapang tanpa perlu khawatir.</p>
-        </div>
-    </div>
+                    <p><span class="font-bold">Kafe Angin Semilir</span> tumbuh dari harapan sederhana: menyediakan ruang yang teduh bagi siapa pun yang ingin singgah, merasakan kedamaian, dan pulang dengan hati yang lebih ringan. Tempat kecil di tengah alam ini siap menyambut siapa saja dengan suasana tenang, pemandangan lembut, dan parkiran yang lapang tanpa perlu khawatir.</p>
+                </div>
+            </div>
     </section>
 
 </div>
@@ -81,7 +81,7 @@
 
 
 <section class="relative container mx-auto px-4 py-16 text-center">
-    
+
     
     <div class="mb-12">
         <h2 class="text-3xl md:text-5xl font-extrabold text-black mb-4">
@@ -95,7 +95,7 @@
 
     
     <div class="space-y-6">
-        
+
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div class="overflow-hidden rounded-[30px] shadow-lg shadow-black/65 h-[240px] group">
@@ -140,19 +140,19 @@
 <?php $__env->stopSection(); ?>
 
 <?php $__env->startPush('scripts'); ?> 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-        
-        var swiper = new Swiper(".profilSwiper", {
-            effect: "fade",
-            fadeEffect: { crossFade: true },
-            speed: 1000,
-            autoplay: {
-                delay: 1500,
-                disableOnInteraction: false, 
-            },
-            loop: true,
-        });
-    </script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+
+var swiper = new Swiper(".profilSwiper", {
+effect: "fade",
+fadeEffect: { crossFade: true },
+speed: 1000,
+autoplay: {
+delay: 1500,
+disableOnInteraction: false,
+},
+loop: true,
+});
+</script>
 <?php $__env->stopPush(); ?>
 <?php echo $__env->make('layout', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH C:\laragon\www\semilir2\resources\views/profil.blade.php ENDPATH**/ ?>

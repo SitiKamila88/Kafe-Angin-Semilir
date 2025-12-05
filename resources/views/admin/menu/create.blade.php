@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,8 @@
 
     <!-- Load Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-     <!-- Load Google Fonts -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Load Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 
@@ -17,7 +18,9 @@
 
     <!-- Custom Styles -->
     <style>
-        html { scroll-behavior: smooth; }
+        html {
+            scroll-behavior: smooth;
+        }
 
         /* Font settings */
         body {
@@ -27,11 +30,18 @@
         }
 
         /* Special font for headings and .font-baloo class */
-        h1, h2, h3, h4, h5, h6, .font-baloo {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        .font-baloo {
             font-family: 'Baloo Bhaijaan 2', cursive;
         }
     </style>
 </head>
+
 <body class="bg-[#FFFBF5] min-h-screen p-6 flex flex-col items-center">
 
     <!-- Logo Section (Top Left Corner) -->
@@ -66,16 +76,16 @@
             <div>
                 <label class="block text-sm font-bold text-gray-700 mb-2 ml-1">Nama Menu</label>
                 <input type="text" name="nama"
-                       class="w-full px-6 py-3 rounded-full bg-gray-200 border-none text-gray-800 focus:ring-2 focus:ring-[#F9A826] focus:bg-white transition-all outline-none"
-                       required>
+                    class="w-full px-6 py-3 rounded-full bg-gray-200 border-none text-gray-800 focus:ring-2 focus:ring-[#F9A826] focus:bg-white transition-all outline-none"
+                    required>
             </div>
 
             <!-- Price Field -->
             <div>
                 <label class="block text-sm font-bold text-gray-700 mb-2 ml-1">Harga</label>
                 <input type="number" name="harga"
-                       class="w-full px-6 py-3 rounded-full bg-gray-200 border-none text-gray-800 focus:ring-2 focus:ring-[#F9A826] focus:bg-white transition-all outline-none"
-                       required>
+                    class="w-full px-6 py-3 rounded-full bg-gray-200 border-none text-gray-800 focus:ring-2 focus:ring-[#F9A826] focus:bg-white transition-all outline-none"
+                    required>
             </div>
 
             <!-- Description Field -->
@@ -83,8 +93,8 @@
                 <label class="block text-sm font-bold text-gray-700 mb-2 ml-1">Deskripsi</label>
                 <!-- Textarea with rounded corners for consistency -->
                 <textarea name="deskripsi" rows="2"
-                          class="w-full px-6 py-3 rounded-[20px] bg-gray-200 border-none text-gray-800 focus:ring-2 focus:ring-[#F9A826] focus:bg-white transition-all outline-none resize-none"
-                          required></textarea>
+                    class="w-full px-6 py-3 rounded-[20px] bg-gray-200 border-none text-gray-800 focus:ring-2 focus:ring-[#F9A826] focus:bg-white transition-all outline-none resize-none"
+                    required></textarea>
             </div>
 
             <!-- Category Dropdown -->
@@ -98,7 +108,9 @@
                     </select>
                     <!-- Custom Dropdown Arrow -->
                     <div class="absolute inset-y-0 right-5 flex items-center pointer-events-none text-gray-500">
-                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"/></svg>
+                        <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
+                            <path d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" />
+                        </svg>
                     </div>
                 </div>
             </div>
@@ -108,8 +120,8 @@
                 <label class="block text-sm font-bold text-gray-700 mb-2 ml-1">Gambar</label>
                 <!-- button choose file -->
                 <input type="file" name="foto"
-                       class="w-full px-6 py-3 rounded-full bg-gray-200 border-none text-gray-500 file:mr-4 file:py-1 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-[#F9A826] file:text-white hover:file:bg-[#e08e10] cursor-pointer"
-                       required>
+                    class="w-full px-6 py-3 rounded-full bg-gray-200 border-none text-gray-500 file:mr-4 file:py-1 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-[#F9A826] file:text-white hover:file:bg-[#e08e10] cursor-pointer"
+                    required>
             </div>
 
             <!-- Action Buttons -->
@@ -126,4 +138,5 @@
     </div>
 
 </body>
+
 </html>

@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Menu;
 // Ganti facade Storage jadi File karena kita mau main manual di public
-use Illuminate\Support\Facades\File; 
+use Illuminate\Support\Facades\File;
 
 class AdminMenuController extends Controller
 {
@@ -24,7 +24,7 @@ class AdminMenuController extends Controller
     {
         $request->validate([
             'nama' => 'required',
-            'kategori' => 'required', 
+            'kategori' => 'required',
             'harga' => 'required|numeric',
             'deskripsi' => 'required',
             'foto' => 'required|image|mimes:jpeg,png,jpg|max:2048',
@@ -41,10 +41,10 @@ class AdminMenuController extends Controller
             $file = $request->file('foto');
             // Bikin nama file unik (misal: 170988_bakso.jpg)
             $nama_file = time() . "_" . $file->getClientOriginalName();
-            
+
             // Pindahkan file ke folder public/foto_menu
             $file->move(public_path('foto_menu'), $nama_file);
-            
+
             // Simpan nama file aja ke database
             $menu->foto = $nama_file;
         }
@@ -88,7 +88,7 @@ class AdminMenuController extends Controller
             $file = $request->file('foto');
             $nama_file = time() . "_" . $file->getClientOriginalName();
             $file->move(public_path('foto_menu'), $nama_file);
-            
+
             $menu->foto = $nama_file;
         }
 
@@ -100,7 +100,7 @@ class AdminMenuController extends Controller
     public function destroy($id)
     {
         $menu = Menu::findOrFail($id);
-        
+
         // Hapus file fisik di folder public/foto_menu
         if ($menu->foto) {
             $path_lama = public_path('foto_menu/' . $menu->foto);
@@ -108,7 +108,7 @@ class AdminMenuController extends Controller
                 File::delete($path_lama);
             }
         }
-        
+
         $menu->delete();
 
         return redirect()->route('admin.menu.index')->with('success', 'Menu dihapus!');
